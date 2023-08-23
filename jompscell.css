@@ -41,13 +41,23 @@
 
     }
 
-.divprodutos{
+/*.divprodutos{
     margin-left: 2%;
     margin-top: 50px;
     margin-right: 10px;
     float: left;
     text-align: center;
+}*/
+
+
+.divprodutos{
+    margin-left: 2%;
+    margin-top: 50px;
+    margin-right: 15px;
+    float: left;
+    text-align: center;
 }
+
 
 .preco{text-align: center;
     font-weight: bold;
