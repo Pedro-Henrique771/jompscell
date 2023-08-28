@@ -96,10 +96,12 @@
     font-weight: normal;}
 
 .selectiphone{width: 200px;
-    font-size: 16px;}
+    font-size: 16px;
+    display: block;}
 
 .select{width: 100px;
-    font-size: 16px;}
+    font-size: 16px;
+    display: block;}
 
 .esp{margin-left: 550px;}
 
@@ -116,3 +118,4 @@
 
 .linkformat{text-decoration: none;
     color: black;}
+
