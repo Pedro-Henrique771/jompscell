@@ -1,5 +1,7 @@
 .topo{background-color: rgb(198, 226, 228);
-    border: 1px solid #Daa520;}
+    border: 1px solid #Daa520;
+    border-radius: 10px;
+    margin: 0px 20px;}
 
 .logo{width: 120px;
     margin: 5px 5px 5px 10px;}
@@ -18,15 +20,18 @@
     margin-top: 40px;}
 
 
-.float{float: left;}
+.floatip14{float: left;
+    margin-left: 30px;}
 
 .clear{clear: both;}
 
-.ip14promax{margin-top: 12%;}
+.ip14promax{margin-top: 12%;
+}
 
 .back{background-color: rgb(179, 219, 222);}
 
-.apresentacao{font-size: 18px;}
+.apresentacao{font-size: 18px;
+    margin-right: 30px;}
 
 .hr{clear: both;
     margin-top: 350px;}
@@ -35,19 +40,12 @@
     clear: both;}
 
 .imgprodutos{
-    height: 250px;
+    height: 280px;
     margin: 10px;
     text-align: center;
+    margin-top: 40px;
 
     }
-
-.divprodutos{
-    margin-left: 21px;
-    margin-top: 50px;
-    margin-right: 21px;
-    float: left;
-    text-align: center;
-}
 
 .preco{text-align: center;
     font-weight: bold;
@@ -60,7 +58,8 @@
     background-color: rgb(133, 227, 233);
     color: black;
     text-decoration: none;
-    border: 1px solid black;}
+    border: 1px solid black;
+    border-radius: 10px;}
 
 .ip14promaximg{width: 400px;
     padding-top: 30px;}
@@ -118,4 +117,6 @@
 
 .linkformat{text-decoration: none;
     color: black;}
+
+.tableiphones{width: 95%;}
 
