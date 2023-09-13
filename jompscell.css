@@ -138,22 +138,24 @@
     cursor: pointer;}
 
 #caixa1{width: 200px;
-    font-size: 16px;
+    font-size: 20px;
     display: block;
     margin-left: 20px;
     border-radius: 5px;}
 
 #caixa2{width: 100px;
-    font-size: 16px;
+    font-size: 20px;
     display: block;
     margin-left: 20px;
     border-radius: 5px;}
 
 #caixa3{width: 100px;
-    font-size: 16px;
+    font-size: 20px;
     display: block;
     margin-left: 20px;
     border-radius: 5px;}
+
+#formulario{font-size: 20px;}
 
 .iconinsta{position: relative;
     width: 50px;
