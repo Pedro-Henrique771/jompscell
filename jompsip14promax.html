@@ -16,7 +16,7 @@
 
 
 <div class="topo">
-    <a href="index.html"><img src="jvcell-img/jomps_cell_logo_1-removebg-preview.png" class="logo" align="center"></a>
+    <a href="jompscell.html"><img src="jvcell-img/jomps_cell_logo_1-removebg-preview.png" class="logo" align="center"></a>
     <img src="imagens/carrinho-de-compras.png" class="carrinho" align="right">
     <img src="imagens/boneco-login.png" class="login" align="right">
 
@@ -44,51 +44,33 @@
 <div class="esp"><h2 class="texto-produto">Iphone 14</h2></div>
     
 
+<form id="formulario">
+    <label for="caixa1">Modelo:</label>
+    <select id="caixa1" name="caixa1">
+        <option value="opcao1">iPhone 14</option>
+        <option value="opcao2">iPhone 14 Pro</option>
+        <option value="opcao3">iPhone 14 Pro Max</option>
+    </select><br>
 
-<h4 class="opcoes">Modelo:</h4>
+    <label for="caixa2">Cor:</label>
+    <select id="caixa2" name="caixa2">
+        <option value="link1">Azul</option>
+        <option value="link2">Roxo</option>
+        <option value="link3">Dourado</option>
+        <option value="link4">Preto</option>
+        <option value="link5">Branco</option>
+        <option value="link6">Vermelho</option>
+    </select><br>
 
+    <label for="caixa3">Memória:</label>
+    <select id="caixa3" name="caixa3">
+        <option value="pagina1">128gb</option>
+        <option value="pagina2">256gb</option>
+        <option value="pagina3">512gb</option>
+    </select>
 
-    <forms>
-
-            <select name="Cor" class="selectiphone">
-                <option>Selecione</option>
-                <option value="preto">IPhone 14</option>
-                <option value="preto">IPhone 14 Pro</option>
-                <option value="preto">IPhone 14 Pro Max</option>
-            </select>
-
-   
-<h4 class="opcoes">Cor:</h4>
-
-        <select name="Cor" class="selectiphone">
-            <option>Selecione</option>
-            <option value="preto">Preto</option>
-            <option value="preto">Cinza</option>
-            <option value="preto">Branco</option>
-        </select>
-
-
-   
-<h4 class="opcoes">Memória:</h4>
-
-        
-
-
-        <select name="Cor" class="select">
-            <option>Selecione</option>
-            <option value="preto">128gb</option>
-            <option value="cinza">256gb</option>
-            <option value="dourado">1TB</option>
-
-        </select>
-
-
-
-        <button name="Comprar" class="botaocomprar1">Comprar</button>
-        <!--td><a href="https://www.multiversos.shop/" class="botaocomprar">Comprar</a></td>-->
-
-
-</forms>
+    <button type="button" id="gerarLink">Comprar</button>
+</form>
 
 
 <hr class="hr2">
@@ -123,7 +105,37 @@
 </p>
 
 
+<script>
+    document.getElementById("gerarLink").addEventListener("click", function() {
+        var caixa1Selecionada = document.getElementById("caixa1").value;
+        var caixa2Selecionada = document.getElementById("caixa2").value;
+        var caixa3Selecionada = document.getElementById("caixa3").value;
 
+        // Mapeie as seleções para URLs correspondentes
+        var linkMap = {
+            "opcao1-link1-pagina1": "https://www.exemplo.com/link1_pagina1",
+            "opcao1-link1-pagina2": "https://www.exemplo.com/link1_pagina2",
+            "opcao1-link1-pagina3": "https://www.exemplo.com/link1_pagina3",
+            "opcao1-link2-pagina1": "https://www.exemplo.com/link2_pagina1",
+            "opcao1-link2-pagina2": "https://www.exemplo.com/link2_pagina2",
+            "opcao1-link2-pagina3": "https://www.exemplo.com/link2_pagina3",
+            "opcao1-link3-pagina1": "https://www.exemplo.com/link3_pagina1",
+            "opcao1-link3-pagina2": "https://www.exemplo.com/link3_pagina2",
+            "opcao1-link3-pagina3": "https://www.exemplo.com/link3_pagina3",
+            "opcao1-link5-pagina2": "https://www.multiversos.shop",
+            // Adicione mais mapeamentos conforme necessário
+        };
+
+        var chaveSelecao = caixa1Selecionada + "-" + caixa2Selecionada + "-" + caixa3Selecionada;
+        var link = linkMap[chaveSelecao];
+
+        if (link) {
+            window.location.href = link; // Redirecione para o link gerado
+        } else {
+            alert("Combinação de seleções não encontrada.");
+        }
+    });
+</script>
 
 
 
