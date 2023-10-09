@@ -144,6 +144,12 @@
     margin-top: 30px;
     cursor: pointer;}
 
+#gerarLink:hover{
+    background: black;
+    color: rgb(133, 227, 233);
+    border: 2px solid cyan;
+}
+
 #caixa1{width: 200px;
     font-size: 20px;
     display: block;
@@ -227,11 +233,7 @@
 
 
 
-@media  screen and (max-width: 768px) {
-
-    
-
-    
+@media screen and (max-width: 768px) {
 
 
 
