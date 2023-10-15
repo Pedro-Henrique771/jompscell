@@ -116,7 +116,50 @@
     border-radius: 5px;
 }
 
-.esp{margin-left: 560px;}
+.esp{margin-left: 730px;}
+
+h3.esp{font-weight: 900;
+    font-size: 20px;}
+
+p.esp{font-size: 18px;
+    font-weight:400}
+
+.ul{margin-left: 550px;
+    position: absolute;
+    left: 10px;
+    top: 222px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;}
+
+
+.ul2{margin-left: 550px;
+    position: absolute;
+    left: 250px;
+    top: 222px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;}
+
+.ul3{margin-left: 550px;
+    width: 420px;
+    position: absolute;
+    left: 10px;
+    top: 380px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;}
+
+.mais-inf{margin-left: 550px;
+    width: 420px;
+    position: absolute;
+    left: 10px;
+    top: 595px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;}
+
 
 /*.botaocomprar{
     text-align: center;
@@ -177,7 +220,6 @@
     right: 10px;
 }
 
-.iconinsta:hover{width: 55px;}
 
 .iconwpp{position: relative;
     width: 50px;
@@ -185,7 +227,6 @@
     left: 15px;
     }
 
-.iconwpp:hover{width: 55px;}
 
 .especificacoes{margin: 0px 50px;}
 

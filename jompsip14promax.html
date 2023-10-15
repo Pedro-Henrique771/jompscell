@@ -42,6 +42,58 @@
 </div>
 
 <div class="esp"><h2 class="texto-produto">Iphone 14</h2></div>
+
+<br>
+
+<!--<div class="ul">
+    <h3 style="padding: 0px 20px;">
+        Modelos Disponíveis:
+    </h3>
+
+    <ul>
+        <li>iPhone 14 <br></li>
+        <li>iPhone 14 Pro <br></li>
+        <li>iPhone 14 Pro Max <br></li>
+
+    </ul>
+</div>
+
+
+<div class="ul2">
+    <h3 style="padding: 0px 20px;">
+        Armazenamento:
+    </h3>
+
+    <ul>
+        <li>128gb<br></li>
+        <li>256gb<br></li>
+        <li>512gb<br></li>
+
+    </ul>
+</div>
+
+<div class="ul3">
+    <h3 style="padding: 0px 20px;">
+        Cores:
+    </h3>
+
+    <ul>
+        <li>Azul<br></li>
+        <li>Roxo<br></li>
+        <li>Dourado<br></li>
+        <li>Preto<br></li>
+        <li>Branco<br></li>
+        <li>Vermelho<br></li>
+
+
+    </ul>
+</div>
+
+<div class="mais-inf">
+    <a href="https://api.whatsapp.com/send?phone=553388434433"><img src="icons/instagram.png" width="50px">-------------</a>
+    <a href=""><img src="icons/iconwpp.png" width="50px">---------------</a>
+
+</div>-->
     
 
 <form id="formulario">
@@ -67,10 +119,13 @@
         <option value="pagina1">128gb</option>
         <option value="pagina2">256gb</option>
         <option value="pagina3">512gb</option>
+        <option value="pagina4">1TB</option>
     </select>
 
     <button type="button" id="gerarLink">Comprar</button>
 </form>
+
+<p style="font-size: 12px;">*Versão 1TB disponível apenas para Pro e Pro Max</p>
 
 
 <hr class="hr2">
@@ -80,15 +135,15 @@
 
 <h2 class="info">Especificações</h2>
 <p class="especificacoes">
-    <!--Iphone 14: <br>
-    Tamanho da tela: 6,7 polegadas <br>
-    Resolução da tela: Full HD+ (1290 x 2796 pixel) <br>
+    Iphone 14: <br>
+    Tamanho da tela: 6,1 polegadas <br>
+    Resolução da tela: 2532 x 1170 pixel <br>
     Painel da tela: Super Retina XDR OLED <br>
-    Câmera principal: tripla de 48 MP (principal) + 12 MP (grande angular) + 12 MP (telefoto) <br>
+    Câmera traseira: dupla de 12 megapixels <br>
     Câmera de selfie: 12 megapixels <br>
-    Sistema: iOS 16 <br>
-    Processador: A16 Bionic (Apple) <br>
-    Memória RAM: 6 GB-->
+    Sistema operacional: iOS 16 <br>
+    Processador: A15 Bionic (Apple) <br>
+    Memória RAM: 6 GB <br>
 
 </p>
 <br>
@@ -97,27 +152,28 @@
 <p class="especificacoes">
     Iphone 14 Pro: <br>
     Tamanho da tela: 6,7 polegadas <br>
-    Resolução da tela: Full HD+ (1290 x 2796 pixel) <br>
+    Resolução da tela: 2532 x 1170 pixel <br>
     Painel da tela: Super Retina XDR OLED <br>
-    Câmera principal: tripla de 48 MP (principal) + 12 MP (grande angular) + 12 MP (telefoto) <br>
+    Câmera traseira: tripla de 48 MP (principal) + 12 MP (grande angular) + 12 MP (telefoto) <br>
     Câmera de selfie: 12 megapixels <br>
-    Sistema: iOS 16 <br>
+    Sistema operacional: iOS 16 <br>
     Processador: A16 Bionic (Apple) <br>
-    Memória RAM: 6 GB
+    Memória RAM: 6 GB <br>
+
 </p>
 <br>
 <hr>
 <br>
 <p class="especificacoes">
-    <!--Iphone 14 Pro Max: <br>
+    Iphone 14 Pro Max: <br>
     Tamanho da tela: 6,7 polegadas <br>
-    Resolução da tela: Full HD+ (1290 x 2796 pixel) <br>
+    Resolução da tela: 2796 x 1290 pixel <br>
     Painel da tela: Super Retina XDR OLED <br>
-    Câmera principal: tripla de 48 MP (principal) + 12 MP (grande angular) + 12 MP (telefoto) <br>
+    Câmera traseira: tripla de 48 MP (principal) + 12 MP (grande angular) + 12 MP (telefoto) <br>
     Câmera de selfie: 12 megapixels <br>
     Sistema: iOS 16 <br>
     Processador: A16 Bionic (Apple) <br>
-    Memória RAM: 6 GB-->
+    Memória RAM: 6 GB
 
 </p>
 
@@ -130,17 +186,119 @@
 
         // Mapeie as seleções para URLs correspondentes
         var linkMap = {
-            "opcao1-link1-pagina1": "https://www.exemplo.com/link1_pagina1",
-            "opcao1-link1-pagina2": "https://www.exemplo.com/link1_pagina2",
-            "opcao1-link1-pagina3": "https://www.exemplo.com/link1_pagina3",
-            "opcao1-link2-pagina1": "https://www.exemplo.com/link2_pagina1",
-            "opcao1-link2-pagina2": "https://www.exemplo.com/link2_pagina2",
-            "opcao1-link2-pagina3": "https://www.exemplo.com/link2_pagina3",
-            "opcao1-link3-pagina1": "https://www.exemplo.com/link3_pagina1",
-            "opcao1-link3-pagina2": "https://www.exemplo.com/link3_pagina2",
-            "opcao1-link3-pagina3": "https://www.exemplo.com/link3_pagina3",
-            "opcao1-link5-pagina2": "https://www.multiversos.shop",
-            // Adicione mais mapeamentos conforme necessário
+
+        //IPHONE 14
+
+            //Iphone 14 Azul
+            "opcao1-link1-pagina1": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014,%20Azul,%20128gb!",
+            "opcao1-link1-pagina2": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014,%20Azul,%20256gb!",
+            "opcao1-link1-pagina3": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014,%20Azul,%20512gb!",
+
+            //Iphone 14 Roxo
+            "opcao1-link2-pagina1": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014,%20Roxo,%20128gb!",
+            "opcao1-link2-pagina2": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014,%20Roxo,%20256gb!",
+            "opcao1-link2-pagina3": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014,%20Roxo,%20512gb!",
+
+            //Iphone 14 Dourado
+            "opcao1-link3-pagina1": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014,%20Dourado,%20128gb!",
+            "opcao1-link3-pagina2": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014,%20Dourado,%20256gb!",
+            "opcao1-link3-pagina3": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014,%20Dourado,%20512gb!",
+
+            //Iphone 14 Preto
+            "opcao1-link4-pagina1": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014,%20Preto,%20128gb!",
+            "opcao1-link4-pagina2": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014,%20Preto,%20256gb!",
+            "opcao1-link4-pagina3": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014,%20Preto,%20512gb!",
+
+            //Iphone 14 Branco
+            "opcao1-link5-pagina1": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014,%20Branco,%20128gb!",
+            "opcao1-link5-pagina2": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014,%20Branco,%20256gb!",
+            "opcao1-link5-pagina3": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014,%20Branco,%20512gb!",
+
+            //Iphone 14 Vermelho
+            "opcao1-link6-pagina1": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014,%20Vermelho,%20128gb!",
+            "opcao1-link6-pagina2": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014,%20Vermelho,%20256gb!",
+            "opcao1-link6-pagina3": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014,%20Vermelho,%20512gb!",
+
+
+        //IPHONE 14 PRO
+
+
+            //Iphone 14 Pro Azul
+            "opcao2-link1-pagina1": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro,%20Azul,%20128gb!",
+            "opcao2-link1-pagina2": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%201420Pro,%20Azul,%20256gb!",
+            "opcao2-link1-pagina3": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%201420Pro,%20Azul,%20512gb!",
+            "opcao2-link1-pagina4": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%201420Pro,%20Azul,%201TB!",
+
+            //Iphone 14 Pro Roxo
+            "opcao2-link2-pagina1": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro,%20Roxo,%20128gb!",
+            "opcao2-link2-pagina2": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro,%20Roxo,%20256gb!",
+            "opcao2-link2-pagina3": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro,%20Roxo,%20512gb!",
+            "opcao2-link2-pagina4": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro,%20Roxo,%201TB!",
+
+            //Iphone 14 Pro Dourado
+            "opcao2-link3-pagina1": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro,%20Dourado,%20128gb!",
+            "opcao2-link3-pagina2": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro,%20Dourado,%20256gb!",
+            "opcao2-link3-pagina3": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro,%20Dourado,%20512gb!",
+            "opcao2-link3-pagina4": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro,%20Dourado,%201TB!",
+
+            //Iphone 14 Pro Preto
+            "opcao2-link4-pagina1": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro,%20Preto,%20128gb!",
+            "opcao2-link4-pagina2": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro,%20Preto,%20256gb!",
+            "opcao2-link4-pagina3": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro,%20Preto,%20512gb!",
+            "opcao2-link4-pagina4": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro,%20Preto,%201TB!",
+
+            //Iphone 14 Pro Branco
+            "opcao2-link5-pagina1": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro,%20Branco,%20128gb!",
+            "opcao2-link5-pagina2": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro,%20Branco,%20256gb!",
+            "opcao2-link5-pagina3": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro,%20Branco,%20512gb!",
+            "opcao2-link5-pagina4": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro,%20Branco,%201TB!",
+
+            //Iphone 14 Pro Vermelho
+            "opcao2-link6-pagina1": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro,%20Vermelho,%20128gb!",
+            "opcao2-link6-pagina2": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro,%20Vermelho,%20256gb!",
+            "opcao2-link6-pagina3": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro,%20Vermelho,%20512gb!",
+            "opcao2-link6-pagina4": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro,%20Vermelho,%201TB!",
+
+
+        //IPHONE 14 PRO MAX
+
+
+            //Iphone 14 Pro Max Azul
+            "opcao3-link1-pagina1": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro%20Max,%20Azul,%20128gb!",
+            "opcao3-link1-pagina2": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%201420Pro%20Max,%20Azul,%20256gb!",
+            "opcao3-link1-pagina3": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%201420Pro%20Max,%20Azul,%20512gb!",
+            "opcao3-link1-pagina4": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%201420Pro%20Max,%20Azul,%201TB!",
+
+            //Iphone 14 Pro Max Roxo
+            "opcao3-link2-pagina1": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro%20Max,%20Roxo,%20128gb!",
+            "opcao3-link2-pagina2": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro%20Max,%20Roxo,%20256gb!",
+            "opcao3-link2-pagina3": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro%20Max,%20Roxo,%20512gb!",
+            "opcao3-link2-pagina4": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro%20Max,%20Roxo,%201TB!",
+
+            //Iphone 14 Pro Max Dourado
+            "opcao3-link3-pagina1": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro%20Max,%20Dourado,%20128gb!",
+            "opcao3-link3-pagina2": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro%20Max,%20Dourado,%20256gb!",
+            "opcao3-link3-pagina3": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro%20Max,%20Dourado,%20512gb!",
+            "opcao3-link3-pagina4": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro%20Max,%20Dourado,%201TB!",
+
+            //Iphone 14 Pro Max Preto
+            "opcao3-link4-pagina1": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro%20Max,%20Preto,%20128gb!",
+            "opcao3-link4-pagina2": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro%20Max,%20Preto,%20256gb!",
+            "opcao3-link4-pagina3": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro%20Max,%20Preto,%20512gb!",
+            "opcao3-link4-pagina4": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro%20Max,%20Preto,%201TB!",
+
+            //Iphone 14 Pro Max Branco
+            "opcao3-link5-pagina1": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro%20Max,%20Branco,%20128gb!",
+            "opcao3-link5-pagina2": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro%20Max,%20Branco,%20256gb!",
+            "opcao3-link5-pagina3": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro%20Max,%20Branco,%20512gb!",
+            "opcao3-link5-pagina4": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro%20Max,%20Branco,%201TB!",
+
+            //Iphone 14 Pro Max Vermelho
+            "opcao3-link6-pagina1": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro%20Max,%20Vermelho,%20128gb!",
+            "opcao3-link6-pagina2": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro%20Max,%20Vermelho,%20256gb!",
+            "opcao3-link6-pagina3": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro%20Max,%20Vermelho,%20512gb!",
+            "opcao3-link6-pagina4": "https://api.whatsapp.com/send?phone=553388434433&text=Ol%C3%A1%20JompsCell,%20tenho%20interesse%20no%20IPhone%2014%20Pro%20Max,%20Vermelho,%201TB!",
+
         };
 
         var chaveSelecao = caixa1Selecionada + "-" + caixa2Selecionada + "-" + caixa3Selecionada;
